@@ -3,6 +3,14 @@
   /*css stuff*/
 
   body:after {
+    font-size:300%;
+    font-weight: bold;
+    position: fixed;
+    bottom:60px;
+    background-color: hsla(1,60%, 40%,0.7);
+  }
+
+  body:after {
     content: "1024 and up!";
   }
 

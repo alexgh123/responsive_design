@@ -74,6 +74,8 @@ content styling below
     margin-left: 3%;
 }
 
-.span-one-third {
+@media only screen and (min-width: 768px) {
+    .span-one-third {
     width: 30%;
+    }
 }
